@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TriviaGame</title>
+	<link rel="stylesheet" href="assets/css/style.css" class="css">
+	<link href="https://fonts.googleapis.com/css?family=Monoton|Oswald|Poiret+One|Quicksand" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<h1>The ultimate Movie / TV Quiz!</h1>
+
+<div class="start">
+    <button id="start"><h2>Start</h2></button>
+</div>
+
+<div class="game-container ready">
+    
+    <div class="countdown">
+    	<h2>Remaining Time: <span id="timer"></span></h2>
+    </div>
+
+        <div class="questions">
+        	<h2>"What is the highest grossing movie?"</h2>
+				<form class="choices">
+					<input type="radio" name="question1" value="0">"The Avengers"<br>
+					<input type="radio" name="question1" value="0">"Titanic"<br>
+					<input type="radio" name="question1" value="0">"National Lampoon's Christmas Vacation"<br>
+					<input type="radio" name="question1" value="1">"Avatar"
+		        </form>
+
+			<h2>"What is the highest grossing movie franchise?"</h2>
+				<form class="choices">
+					<input type="radio" name="question2" value="1">"Marvel Universe"<br>
+					<input type="radio" name="question2" value="0">"Harry Potter"<br>
+					<input type="radio" name="question2" value="0">"Fast and Furious"<br>
+					<input type="radio" name="question2" value="0">"Star Wars"
+		        </form>
+
+	        <h2>"Who is the highest paid actor in 2017?"</h2>
+				<form class="choices">
+					<input type="radio" name="question3" value="0">"Chevy Chase"<br>
+					<input type="radio" name="question3" value="1">"Mark Wahlberg"<br>
+					<input type="radio" name="question3" value="0">"Shah Rukh Khan"<br>
+					<input type="radio" name="question3" value="0">"Tom Cruise"
+		        </form>
+
+	        <h2>"What is the most watched TV season finale?"</h2>
+				<form class="choices">
+					<input type="radio" name="question4" value="0">MacGyver<br>
+					<input type="radio" name="question4" value="0">"Home Improvement"<br>
+					<input type="radio" name="question4" value="0">"Seinfeld"<br>
+					<input type="radio" name="question4" value="1">"MASH"
+		        </form>		
+		</div>
+				<form class="submit">
+					<input type="button" id="getValue" Value="Submit"/>
+				</form>
+</div>
+
+<div class="end">
+	<h2>Correct Answers: <span id="correctAnswers"></span></h2>
+	<br>
+	<h2>Incorrect Answers: <span id="incorrectAnswers"></span></h2>
+	<br>
+	<h2>Unanswered: <span id="unanswered"></span></h2>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+<script type="text/javascript" src="assets/javascript/app.js">
+</script>    
+
+</body>
+</html>

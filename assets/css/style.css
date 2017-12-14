@@ -1,0 +1,39 @@
+body, html {
+    background-image: url("/Users/philippwickart/Desktop/Rutgers/TriviaGame/assets/images/movieposter.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+	font-family:'Monoton', cursive;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	padding-top: 50px;
+}
+
+h2 {
+	text-align: center;
+
+}
+
+.start {
+	text-align: center;
+}
+
+#start {
+	border: 10px solid black;
+	padding: 0px 20px 0px 20px;
+	background-color: #FADC55;
+	margin-top: 10px;
+}
+.choices {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
