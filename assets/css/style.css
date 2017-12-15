@@ -58,7 +58,11 @@ h2 {
 	border: 5px solid white;
 	font-family: 'Oswald', sans-serif;
 }
+
 .questions {
 	margin-top: 50px;
 }
 
+.question {
+	margin: 10px 0;
+}
