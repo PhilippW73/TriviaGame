@@ -1,6 +1,10 @@
 var correctAnswers = 0;
 var incorrectAnswers = 0;
 var unanswered = 0;
+
+var number = 30;
+var intervalId;
+
 //var count = 0;
 
 // var questions = [{
@@ -24,19 +28,17 @@ var unanswered = 0;
 // 	correctAnswer: 3
 // },]
 
-var number = 30;
-var intervalId;
-
-
 $(document).ready(function () {
 
 
 	$(".game-container").hide();
 	$(".end").hide();
+	$(".countdown").hide();
 
 	$("#start").click(function(){
 		$(".start").hide();
 		$(".game-container").show();
+		$(".countdown").show();
 		countdown();
 
 	});
@@ -60,14 +62,11 @@ $(document).ready(function () {
       clearInterval(intervalId);
     }
 
-//for(var i=0; i < questions.length; i++);
-
 	$("#getValue").click(function(){
 		$(".start").hide();
 		$(".end").show();
 		$(".game-container").hide();
 		$(".countdown").hide();
-
 		stop();
 
 	    var selValue1 = $('input[name=question1]:checked').val(); 
