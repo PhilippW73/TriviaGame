@@ -66,3 +66,7 @@ h2 {
 .question {
 	margin: 10px 0;
 }
+
+#timer {
+	font-family:'Monoton', cursive;
+}

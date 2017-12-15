@@ -116,11 +116,7 @@ $(document).ready(function () {
 		$("#incorrectAnswers").html(incorrectAnswers);
 		$("#unanswered").html(unanswered);
 
-
-
 	});
-
-
 
 });
 
